@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_subdirectory(MessageBox)
 add_subdirectory(Window)
+add_subdirectory(Notification)
