@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 4.0.0)
+
+project(Triangle)
+
+find_package(glad CONFIG REQUIRED)
+
+add_executable(${PROJECT_NAME} WIN32 main.cpp)
+
+target_link_libraries(${PROJECT_NAME} PRIVATE opengl32 glad::glad)
