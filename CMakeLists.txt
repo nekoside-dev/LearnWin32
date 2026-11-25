@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 4.0.0)
 
+set(CMAKE_TOOLCHAIN_FILE "$ENV{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake")
+
 project(LearnWin32)
 
 set(CMAKE_CXX_STANDARD 23)
@@ -11,3 +13,4 @@ add_subdirectory(Button)
 add_subdirectory(ChildWindow)
 add_subdirectory(Icon)
 add_subdirectory(Text)
+add_subdirectory(OpenGL)
