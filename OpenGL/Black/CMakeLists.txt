@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 4.0.0)
 
-project(Triangle)
+project(Black)
 
 find_package(glad CONFIG REQUIRED)
 
